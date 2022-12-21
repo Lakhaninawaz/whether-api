@@ -33,7 +33,7 @@ const getweather = (city) => {
 	.then(response => {
 		console.log(response)
 
-			cloud_pct10.innerHTML = response.cloud_pct
+			Cloud_pct10.innerHTML = response.cloud_pct
 			temp10.innerHTML = response.temp
 			feels_like10.innerHTML = response.feels_like
 			humidity10.innerHTML = response.humidity
@@ -50,7 +50,7 @@ const getweather = (city) => {
 	.then(response => {
 		console.log(response)
 		
-			cloud_pct11.innerHTML = response.cloud_pct
+			Cloud_pct11.innerHTML = response.cloud_pct
 			temp11.innerHTML = response.temp
 			feels_like11.innerHTML = response.feels_like
 			humidity11.innerHTML = response.humidity
@@ -68,7 +68,7 @@ const getweather = (city) => {
 	.then(response => {
 		console.log(response)
 
-			cloud_pct12.innerHTML = response.cloud_pct
+			Cloud_pct12.innerHTML = response.cloud_pct
 			temp12.innerHTML = response.temp
 			feels_like12.innerHTML = response.feels_like
 			humidity12.innerHTML = response.humidity
@@ -86,7 +86,7 @@ const getweather = (city) => {
 	.then(response => {
 		console.log(response)
 		
-			cloud_pct13.innerHTML = response.cloud_pct
+			Cloud_pct13.innerHTML = response.cloud_pct
 			temp13.innerHTML = response.temp
 			feels_like13.innerHTML = response.feels_like
 			humidity13.innerHTML = response.humidity
